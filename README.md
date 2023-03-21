@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/newshomepagemain-p17EPKy9eI
 - Live Site URL: https://logeshpr-newshomepage.netlify.app
 
 ## My process
