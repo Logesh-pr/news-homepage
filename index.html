@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Frontend Mentor | News homepage</title>
+
+
+</head>
+
+
+
+
+<body>
+
+  <header class="container">
+    <nav class="nav_bar">
+      <div class="nav_logo">
+        <a href="#">
+          <img src="assets/images/logo.svg">
+        </a>
+      </div>
+
+      <div class="nav_toggle" id="nav-toggle">
+        <img src="assets/images/icon-menu.svg" alt="">
+      </div>
+
+      <div class="nav_menu_bg " id="nav-menu">
+        <div class="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_items"><a href="home.html" class="nav_links">Home</a></li>
+            <li class="nav_items"><a href="" class="nav_links">New</a></li>
+            <li class="nav_items"><a href="" class="nav_links">Popular</a></li>
+            <li class="nav_items"><a href="" class="nav_links">Trending</a></li>
+            <li class="nav_items"><a href="" class="nav_links">Categories</a></li>
+          </ul>
+
+          <div class="nav_close" id="nav-close">
+            <img src="assets/images/icon-menu-close.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="grid_container">
+      <div class="hero_img_container">
+        <picture>
+          <source srcset="assets/images/image-web-3-desktop.jpg" media="(min-width:768px)">
+          <img class="hero_img" src="assets/images/image-web-3-mobile.jpg">
+        </picture>
+      </div>
+
+      <div class="hero_heading_container">
+        <h1 class="hero_heading"> The Bright Future of Web 3.0?</h1>
+      </div>
+
+      <div class="sub_heading_container">
+        <p class="sub_heading">
+          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+          of the
+          people.
+          But is it really fulfilling its promise?
+        </p>
+
+        <button class="hero_btn">
+          <a href="">
+            READ MORE
+          </a>
+        </button>
+
+      </div>
+
+      <div class="new_container">
+        <h2 class="new_heading">New</h2>
+        <div class="flex_container">
+          <div class="flex_box">
+            <a href="">
+              <h3> Hydrogen VS Electric Cars</h3>
+            </a>
+            <p>
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="flex_box">
+            <a href="">
+              <h3> The Downsides of AI Artistry</h3>
+            </a>
+            <p>
+              What are the possible adverse effects of on-demand AI image generation?
+            </p>
+          </div>
+          <div class="flex_box">
+            <a href="">
+              <h3>Is VC Funding Drying Up?</h3>
+            </a>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at what that means.
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid_container_two">
+        <div class="flex_row">
+          <div class="flex_row_img_container">
+            <img class="flex_row_img" src="assets/images/image-retro-pcs.jpg" alt="">
+          </div>
+          <div class="flex_row_content">
+            <p class="flex_row_number">01</p>
+            <a href="">
+              <p class="flex_row_heading">Reviving Retro PCs</p>
+            </a>
+            <p class="flex_row_para"> What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="flex_row">
+          <div class="flex_row_img_container">
+            <img class="flex_row_img" src="assets/images/image-top-laptops.jpg" alt="">
+          </div>
+          <div class="flex_row_content">
+            <p class="flex_row_number">02</p>
+            <a href="">
+              <p class="flex_row_heading">Top 10 Laptops of 2022</p>
+            </a>
+            <p class="flex_row_para"> Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="flex_row">
+          <div class="flex_row_img_container">
+            <img class="flex_row_img" src="assets/images/image-gaming-growth.jpg" alt="">
+          </div>
+          <div class="flex_row_content">
+            <p class="flex_row_number">03</p>
+            <a href="">
+              <p class="flex_row_heading">The Growth of Gaming</p>
+            </a>
+            <p class="flex_row_para"> How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <div class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Logesh-pr">Logesh</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
